@@ -1,7 +1,7 @@
 services:
 
   web:
-    image: ghcr.io/7immyH/zenstats:latest
+    image: ghcr.io/7immyh/zenstats:latest
     secrets:
       - db-password
     environment:
