@@ -42,8 +42,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/7immyH/zenstats:latest
-            ghcr.io/7immyH/zenstats:${{ github.sha }}
+            ghcr.io/7immyh/zenstats:latest
+            ghcr.io/7immyh/zenstats:${{ github.sha }}
 
   deploy:
     runs-on: ubuntu-latest
